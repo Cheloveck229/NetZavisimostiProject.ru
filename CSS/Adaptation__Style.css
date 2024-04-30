@@ -75,22 +75,22 @@
     /*index__adaptation*/
 
     .header-index {
-        font-size: 7vw;
+        font-size: 7.7vw;
     }
 
     .main-index {
-        height: 70vh;
-        font-size: 4.2vw;
-        margin-top: 5vh;
+        align-items: center;
+        height: auto;
+        font-size: 4.56vw;
     }
 
     .tips__block-index {
         flex: 1 0 100%;
-        margin-top: 3vh;
+        margin-top: 5vh;
     }
 
     .tips__title-index{
-        font-size: 4.7vw;
+        font-size: 5.06vw;
     }
 
     .footer-index {
@@ -99,17 +99,18 @@
         height: 17vh;
         font-size: 3.2vw;
         gap: 2vh;
-        margin-top: 0vh;
     }
 
     .basement__block:first-child {
         flex-basis: 100%;
     }
+
     .basement__block:nth-child(2) {
         font-size: 6vw;
         order: -1;
         flex-basis: 100%;
     }
+
     .basement__block:last-child {
         text-align: center;
     }
@@ -134,8 +135,17 @@
         flex: 1 0 100%;
         margin-top: 2vh;
     }
+
+    .tips__title-treatment {
+        font-size: 5.5vw;
+    }
+
     .text-treatment {
         gap: 3vh;
+    }
+
+    .text__title-treatment {
+        font-size: 5.5vw;
     }
 
     .footer-treatment {
