@@ -1,0 +1,144 @@
+/*Открытие "Обнуления сайта"*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*Закрытие "Обнуления сайта"*/
+
+/*Базовые понятия для всех сайтов*/
+
+html {
+    background-color: #000000;
+    background: #500f64;
+    background: -moz-linear-gradient(top, #500f64 0%, #000000 92%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #500f64), color-stop(92%, #000000));
+    background: -webkit-linear-gradient(top, #500f64 0%, #000000 92%);
+    background: -o-linear-gradient(top, #500f64 0%, #000000 92%);
+    background: -ms-linear-gradient(top, #500f64 0%, #000000 92%);
+    background: linear-gradient(to bottom, #500f64 0%, #000000 92%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#500f64', endColorstr='#000000', GradientType=0);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+h1, h2 {
+    color: #ff9ee1;
+    font-weight: 700;
+}
+
+p {
+    color: #86f4ff;
+    font-weight: 500;
+}
+
+.reddd {
+    color: #ff9ee1;
+    font-weight: 700;
+}
+
+.blue {
+    color: #86f4ff;
+}
+
+footer {
+    color: #86f4ff;
+    font-weight: 300;
+    font-size: 1vw;
+}
+
+.basement__block:nth-child(2) {
+    color: #ff9ee1;
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+
+.animation {
+    transition: all 1s ease;
+}
+
+.animation:hover {
+    transform: scale(1.05);
+}
