@@ -1,57 +1,108 @@
 @media (orientation: portrait) and (max-width: 1084px) and (min-width: 431px) {
-    header {
+
+    /*index__adaptation*/
+
+    .header-index {
+        font-size: 6.5vw;
+    }
+
+    .main-index {
+        height: 80vh;
+        font-size: 4vw;
+        margin-top: 0vh;
+    }
+
+    .tips__block-index {
+        flex: 1 0 100%;
+        margin-top: 3vh;
+    }
+
+    .tips__title-index{
+        font-size: 4.5vw;
+    }
+
+    .footer-index {
+        margin-top: 0vh;
+        font-size: 2.5vw;
+    }
+
+    /*index__adaptation*/
+
+    /*Treatment__adaptation*/
+
+    .header-treatment {
         font-size: 5vw;
     }
-    main {
+
+    .main-treatment {
         font-size: 3vw;
     }
-    .tips {
+
+    .tips-treatment {
         flex-wrap: wrap;
     }
-    .tips__block {
+
+    .tips__block-treatment {
         flex: 1 0 50%;
         margin-top: 2vh;
     }
-    .text {
+
+    .tips__title-treatment {
+        font-size: 3.5vw;
+    }
+
+    .text-treatment {
         gap: 3vh;
     }
-    footer {
-        font-size: 2vw;
+
+    .text__title-treatment {
+        font-size: 3.5vw;
     }
+
+    .footer-treatment {
+        font-size: 2.5vw;
+    }
+
     .basement__block:nth-child(2) {
-        font-size: 3vw;
+        font-size: 4vw;
     }
+
+        /*Treatment__adaptation*/
 }
 
 @media (max-width: 430px) and (max-height: 935px) {
-    body {
-        overflow-x: hidden;
-    }
-    header {
+
+    /*index__adaptation*/
+
+    .header-index {
         font-size: 7vw;
     }
-    main {
-        font-size: 5vw;
+
+    .main-index {
+        height: 70vh;
+        font-size: 4.2vw;
+        margin-top: 5vh;
     }
-    .tips {
-        flex-wrap: wrap;
-    }
-    .tips__block {
+
+    .tips__block-index {
         flex: 1 0 100%;
-        margin-top: 2vh;
+        margin-top: 3vh;
     }
-    .text {
-        gap: 3vh;
+
+    .tips__title-index{
+        font-size: 4.7vw;
     }
-    footer {
-        font-size: 4vw;
+
+    .footer-index {
         flex-wrap: wrap;
         text-align: center;
+        height: 17vh;
+        font-size: 3.2vw;
         gap: 2vh;
-        margin-top: 8vh;
+        margin-top: 0vh;
     }
+
     .basement__block:first-child {
-        order: 0;
         flex-basis: 100%;
     }
     .basement__block:nth-child(2) {
@@ -59,11 +110,43 @@
         order: -1;
         flex-basis: 100%;
     }
-    .basement__block:nth-child(3) {
-        order: 0;
-    }
     .basement__block:last-child {
-        order: 0;
         text-align: center;
     }
+
+    /*index__adaptation*/
+
+    /*Treatment__adaptation*/
+
+    .header-treatment {
+        font-size: 7vw;
+    }
+
+    .main-treatment {
+        font-size: 5vw;
+    }
+
+    .tips-treatment {
+        flex-wrap: wrap;
+    }
+
+    .tips__block-treatment {
+        flex: 1 0 100%;
+        margin-top: 2vh;
+    }
+    .text-treatment {
+        gap: 3vh;
+    }
+
+    .footer-treatment {
+        flex-wrap: wrap;
+        text-align: center;
+        height: 22vh;
+        font-size: 4vw;
+        gap: 2vh;
+        margin-top: 3vh;
+    }
+
+    /*Treatment__adaptation*/
+
 }

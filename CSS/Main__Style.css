@@ -32,6 +32,10 @@
     text-align: right;
 }
 
+.tips__title-index {
+    font-size: 2vw;
+}
+
 .footer-index {
     height: 10vh;
     margin-top: 9.5vh;
@@ -64,11 +68,19 @@
     text-align: right;
 }
 
+.tips__title-treatment {
+    font-size: 2vw;
+}
+
 .text-treatment {
     display: flex;
     flex-direction: column;
     gap: 10vh;
     text-align: center;
+}
+
+.text__title-treatment {
+    font-size: 2vw;
 }
 
 .footer-treatment {
