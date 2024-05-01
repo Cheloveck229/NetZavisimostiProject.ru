@@ -1,3 +1,15 @@
+@media (min-width: 1085px) {
+
+    /*Video_Style*/
+
+    .tips__block-vi iframe {
+        width: 34vw;
+        height: 34vh;
+    }
+
+    /*Video_Style*/
+}
+
 @media (orientation: portrait) and (max-width: 1084px) and (min-width: 431px) {
 
     /*index__adaptation*/
@@ -63,11 +75,67 @@
         font-size: 2.5vw;
     }
 
-    .basement__block:nth-child(2) {
+    .about {
         font-size: 4vw;
     }
 
-        /*Treatment__adaptation*/
+    /*Treatment__adaptation*/
+
+    /*Video_Style*/
+
+    .header-vi {
+        margin-top: 2.5vh;
+        font-size: 5vw;
+    }
+
+    .main-vi {
+        margin-top: 1vh;
+    }
+
+    .tips__block-vi iframe {
+        width: 75vw;
+        height: 34vh;
+    }
+
+    .tips__block-vi {
+        text-align: left;
+        flex: 1 0 100%;
+        margin-top: 3vh;
+    } 
+
+    .tips__block-vi:nth-child(2) {
+        text-align: right;
+    }
+
+    .tips__block-vi:nth-child(4) {
+        text-align: right;
+    }
+
+    .footer-vi {
+        font-size: 2.5vw;
+    }
+
+    /*Video_Style*/
+
+    /* Us__Style */
+
+    .header-us {
+        margin-top: 7vh;
+        font-size: 7vw;
+    }
+
+    .main-us {
+        text-align: center;
+        font-size: 3.8vw;
+        margin-top: 7vh;
+    }
+
+    .footer-us {
+        font-size: 2.5vw;
+        margin-top: 15vh;
+    }
+
+    /* Us__Style */
 
 }
 
@@ -106,7 +174,7 @@
         flex-basis: 100%;
     }
 
-    .basement__block:nth-child(2) {
+    .about {
         font-size: 6vw;
         order: -1;
         flex-basis: 100%;
@@ -159,5 +227,63 @@
     }
 
     /*Treatment__adaptation*/
+
+    /*Video_Style*/
+
+    .header-vi {
+        margin-top: 2.5vh;
+        font-size: 7vw;
+    }
+
+    .main-vi {
+        margin-top: 0vh;
+    }
+
+    .tips__block-vi iframe {
+        width: 75vw;
+        height: 20vh;
+    }
+
+    .tips__block-vi {
+        flex: 1 0 100%;
+        text-align: center;
+        margin-top: 3vh;
+    } 
+
+    .footer-vi {
+        flex-wrap: wrap;
+        text-align: center;
+        height: 22vh;
+        font-size: 4vw;
+        gap: 2vh;
+        margin-top: 0vh;
+    }
+
+    /*Video_Style*/
+
+    /* Us__Style */
+
+    .header-us {
+        margin-top: 0vh;
+        font-size: 10vw;
+        gap: 2vh;
+    }
+
+    .main-us {
+        text-align: center;
+        font-size: 5.1vw;
+        margin-top: -5vh;
+    }
+
+    .footer-us {
+        flex-wrap: wrap;
+        text-align: center;
+        height: 4vh;
+        font-size: 4vw;
+        gap: 2vh;
+        margin-top: -5vh;
+    }
+
+    /* Us__Style */
 
 }
