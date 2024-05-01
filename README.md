@@ -1,7 +1,7 @@
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fcheloveck229.github.io%2FNetZavisimostiProject.ru%2F&style=for-the-badge&color=blue) ![GitHub language count](https://img.shields.io/github/languages/count/Cheloveck229/NetZavisimostiProject.ru?style=for-the-badge) ![GitHub repo file or directory count](https://img.shields.io/github/directory-file-count/Cheloveck229/NetZavisimostiProject.ru?style=for-the-badge) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Cheloveck229/NetZavisimostiProject.ru?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/Cheloveck229/NetZavisimostiProject.ru?style=for-the-badge)
 
 <h1 align="center">#НетЗависимости.ру</h1>
-<h2 align="center"> Итоговый проект учеников 10А класса, обучающихся в МАОУ "Лицей № 58" </h2>
+<h2 align="center"> Итоговый проект учеников 10А класса, проходящих обучение в МАОУ "Лицей № 58" </h2>
 
 <h3 align="center" >Данный сайт посвящён проблеме Видеоигровой зависимости, на территориях нынешего СНГ пространства, в частности Российской Федерации. Однако эта проблема является всеобщей и её необходимо освещать, для уменьшения количества действительно зависимых граждан по всему миру. <h3>
 
