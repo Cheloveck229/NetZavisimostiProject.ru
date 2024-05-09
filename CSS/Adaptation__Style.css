@@ -31,12 +31,83 @@
         font-size: 4.5vw;
     }
 
+    .buttons {
+        display: none;
+    }
+
     .footer-index {
         margin-top: 0vh;
         font-size: 2.5vw;
     }
 
     /*index__adaptation*/
+
+    /* Information__Style */
+
+    .header-information {
+        margin-top: 0vh;
+        font-size: 5vw;
+    }
+
+    .main-information {
+        font-size: 2.7vw;
+        margin-top: 0vh;
+    }
+
+    .text-information {
+        gap: 3vh;
+        text-align: justify;
+    }
+
+    .text__title-information {
+        text-align: center;
+        font-size: 3.5vw;
+    }
+
+    .footer-information {
+        font-size: 2.2vw;
+    }
+
+    /* Information__Style */
+
+    /* Reasons__Style */
+
+    .header-reasons {
+        margin-top: 0vh;
+        font-size: 5vw;
+    }
+
+    .main-reasons {
+        font-size: 2.6vw;
+        margin-top: -5vh;
+    }
+
+    .tips-reasons {
+        flex-wrap: wrap;
+    }
+
+    .tips__block-reasons {
+        flex: 1 0 100%;
+        margin-top: 3vh;
+    }
+
+    .tips__title-reasons {
+        font-size: 3.5vw;
+    }
+
+    .text-reasons {
+        gap: 6vh;
+    }
+
+    .text__title-reasons {
+        font-size: 3.5vw;
+    }
+
+    .footer-reasons {
+        font-size: 2.2vw;
+    }
+
+    /* Reasons__Style */
 
     /*Treatment__adaptation*/
 
@@ -166,6 +237,10 @@
         font-size: 4.86vw;
     }
 
+    .buttons {
+        display: none;
+    }
+
     .footer-index {
         flex-wrap: wrap;
         text-align: center;
@@ -190,6 +265,83 @@
     }
 
     /*index__adaptation*/
+
+    /* Information__Style */
+
+    .header-information {
+        margin-top: 3vh;
+        font-size: 5vw;
+    }
+
+    .main-information {
+        font-size: 3.5vw;
+        margin-top: 5vh;
+    }
+
+    .text-information {
+        gap: 3vh;
+        text-align: justify;
+    }
+
+    .text__title-information {
+        text-align: center;
+        font-size: 4.5vw;
+    }
+
+    .footer-information {
+        flex-wrap: wrap;
+        text-align: center;
+        height: 22vh;
+        font-size: 3vw;
+        gap: 2vh;
+        margin-top: 3vh;
+    }
+
+    /* Information__Style */
+
+    /* Reasons__Style */
+
+    .header-reasons {
+        margin-top: 2vh;
+        font-size: 7vw;
+    }
+
+    .main-reasons {
+        margin-top: 2vh;
+        font-size: 4vw;
+    }
+
+    .tips-reasons {
+        flex-wrap: wrap;
+    }
+
+    .tips__block-reasons {
+        flex: 1 0 100%;
+        margin-top: 2vh;
+    }
+
+    .tips__title-reasons {
+        font-size: 4.5vw;
+    }
+
+    .text-reasons {
+        gap: 3vh;
+    }
+
+    .text__title-reasons {
+        font-size: 4.5vw;
+    }
+
+    .footer-reasons {
+        flex-wrap: wrap;
+        text-align: center;
+        height: 22vh;
+        font-size: 3vw;
+        gap: 2vh;
+        margin-top: 3vh;
+    }
+
+    /* Reasons__Style */
 
     /*Treatment__adaptation*/
 

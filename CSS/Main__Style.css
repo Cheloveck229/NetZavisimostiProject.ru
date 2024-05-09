@@ -6,9 +6,8 @@
 
 .main-index {
     justify-content: center;
-    height: 50vh;
     font-size: 1.5vw;
-    margin-top: 0vh;
+    gap: 10vh;
 }
 
 .tips-index {
@@ -34,12 +33,81 @@
     font-size: 2vw;
 }
 
-.footer-index {
-    height: 10vh;
-    margin-top: 16vh;
+.buttons-index {
+    text-align: right;
+    justify-content: end;
+}
+
+.buttons__go-index {
+    margin-right: 0.7vw;
 }
 
 /* index__Style */
+
+/* Information__Style */
+
+.head-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1vh;
+}
+
+.main-information {
+    font-size: 1.4vw;
+}
+
+.text-information {
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    text-align: center;
+}
+
+.text__title-information {
+    font-size: 2vw;
+}
+
+.buttons-information {
+    margin-top: 2vh;
+}
+
+/* Information__Style */
+
+/* Reasons__Style */
+
+.main-reasons {
+    gap: 5vh;
+    font-size: 1.5vw;
+}
+
+.tips-reasons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tips__block-reasons:nth-child(2) {
+    text-align: right;
+}
+
+.tips__title-reasons {
+    font-size: 2vw;
+}
+
+.text-reasons {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    text-align: center;
+}
+
+.text__title-reasons {
+    font-size: 2vw;
+}
+
+/* Reasons__Style */
 
 /* Treatment__Style */
 
@@ -80,9 +148,13 @@
     font-size: 2vw;
 }
 
+.buttons-treatment {
+    margin-top: 7vh;
+}
+
 .footer-treatment {
     height: 10vh;
-    margin-top: 5vh;
+    margin-top: 0vh;
 }
 
 /* Treatment__Style */
@@ -108,7 +180,7 @@
     flex: 1 0 50%;
     text-align: center;
     margin-top: 3vh;
-} 
+}
 
 .footer-vi {
     height: 10vh;
@@ -133,9 +205,17 @@
     font-size: 2.2vw;
 }
 
+.buttons-us {
+    margin-top: 15vh;
+}
+
+.buttons__back-us {
+    margin-left: -0.8vw;
+}
+
 .footer-us {
     height: 10vh;
-    margin-top: 16vh;
+    margin-top: 0vh;
 }
 
 /* Us__Style */
