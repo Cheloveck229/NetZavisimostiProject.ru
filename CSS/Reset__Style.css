@@ -6,25 +6,33 @@
     border: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-:focus, :active {
+:focus,
+:active {
     outline: none;
 }
 
-a:focus, a:active {
+a:focus,
+a:active {
     outline: none;
 }
 
-nav, footer, header, aside {
+nav,
+footer,
+header,
+aside {
     display: block;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
     font-size: 100%;
@@ -35,7 +43,9 @@ html, body {
     -webkit-text-size-adjust: 100%;
 }
 
-input, button, textarea {
+input,
+button,
+textarea {
     font-family: inherit;
 }
 
@@ -57,7 +67,8 @@ a {
     color: inherit;
 }
 
-a, a:visited {
+a,
+a:visited {
     text-decoration: none;
     color: inherit;
 }
@@ -74,7 +85,12 @@ img {
     vertical-align: top;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-size: inherit;
     font-weight: 400;
 }
@@ -85,19 +101,17 @@ h1, h2, h3, h4, h5, h6 {
 
 html {
     background-color: #000000;
-    background: #500f64;
-    background: -moz-linear-gradient(top, #500f64 0%, #000000 92%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #500f64), color-stop(92%, #000000));
-    background: -webkit-linear-gradient(top, #500f64 0%, #000000 92%);
-    background: -o-linear-gradient(top, #500f64 0%, #000000 92%);
-    background: -ms-linear-gradient(top, #500f64 0%, #000000 92%);
-    background: linear-gradient(to bottom, #500f64 0%, #000000 92%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#500f64', endColorstr='#000000', GradientType=0);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
 }
 
 body {
+    background: -moz-linear-gradient(top, #500f64 0%, #000000 88%) no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #500f64), color-stop(88%, #000000))
+        no-repeat;
+    background: -webkit-linear-gradient(top, #500f64 0%, #000000 88%) no-repeat;
+    background: -o-linear-gradient(top, #500f64 0%, #000000 88%) no-repeat;
+    background: -ms-linear-gradient(top, #500f64 0%, #000000 88%) no-repeat;
+    background: linear-gradient(to bottom, #500f64 0%, #000000 88%) no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#500f64', endColorstr='#000000', GradientType=0) no-repeat;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -112,18 +126,19 @@ body {
     margin: 0% auto;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-}
-
 header {
     display: flex;
     justify-content: center;
     font-size: 3vw;
 }
 
-h1, h2 {
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2 {
     color: #ff9ee1;
     font-weight: 700;
 }
