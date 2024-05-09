@@ -271,6 +271,8 @@
     .header-us {
         margin-top: 0vh;
         font-size: 10vw;
+        align-items: center;
+        text-align: center;
         gap: 2vh;
     }
 
