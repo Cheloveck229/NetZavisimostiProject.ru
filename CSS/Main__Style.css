@@ -2,13 +2,11 @@
 
 .header-index {
     margin-top: 2.1vh;
-    font-size: 4vw;
 }
 
 .main-index {
-    margin-top: -10vh;
     justify-content: center;
-    font-size: 2.1vw;
+    font-size: 1.5vw;
     gap: 10vh;
 }
 
@@ -32,7 +30,7 @@
 }
 
 .tips__title-index {
-    font-size: 2.6vw;
+    font-size: 2vw;
 }
 
 .buttons-index {
@@ -41,8 +39,7 @@
 }
 
 .buttons__go-index {
-    margin-right: 0.8vw;
-    margin-top: -5.3vh;
+    margin-right: 0.7vw;
 }
 
 /* index__Style */

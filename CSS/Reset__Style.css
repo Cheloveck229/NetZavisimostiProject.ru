@@ -142,13 +142,12 @@ p {
 .buttons {
     display: flex;
     justify-content: space-between;
-    margin-top: -5vh;
-    font-size: 1.5vw;
+    font-size: 1.1vw;
 }
 
 .image {
-    width: 8vw;
-    height: 8vh;
+    width: 6vw;
+    height: 6vh;
 }
 
 .buttons__back {
@@ -168,7 +167,7 @@ footer {
     align-content: center;
     color: #86f4ff;
     font-weight: 300;
-    font-size: 1.3vw;
+    font-size: 1vw;
 }
 
 .basement__block {
@@ -183,7 +182,7 @@ footer {
 .about {
     color: #ff9ee1;
     font-weight: 700;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
 }
 
 .animation {
